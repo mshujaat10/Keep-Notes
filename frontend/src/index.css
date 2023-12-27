@@ -1,0 +1,83 @@
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+textarea {
+    resize: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.nav-logo-image {
+    width: 40px;
+}
+
+.navbar {
+    border-bottom: 1px solid rgb(99, 99, 99);
+}
+
+.b-col {
+    border: 1px solid rgb(99, 99, 99);
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+::placeholder {
+    color: white !important;
+    opacity: 0.6 !important;
+}
+
+::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: white !important;
+}
+
+.add-note-inputs {
+    border: 1px solid rgb(99, 99, 99);
+    /* box-shadow: 10px 10px 10px 10px black; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 40rem;
+}
+
+.note-submit-btn:hover {
+    background-color: rgba(154, 160, 166, 0.039) !important;
+}
+
+.font {
+    letter-spacing: .01785714em;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.font-lg {
+    letter-spacing: .01785714em;
+    font-weight: 500;
+}
+
+.font-light {
+    letter-spacing: .01785714em;
+}
+
+.modal.fade .modal-dialog {
+    transform: scale(0.9);
+    transition: transform 0.2s ease-out;
+}
+
+.modal.fade.show .modal-dialog {
+    transform: scale(1);
+}
+
+@media only screen and (max-width:991px) {
+    .row {
+        justify-content: center !important;
+    }
+}
